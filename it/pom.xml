@@ -7,7 +7,7 @@
     <groupId>org.sonarsource.parent</groupId>
     <artifactId>parent</artifactId>
     <version>49</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>com.sonarsource.it</groupId>
@@ -47,13 +47,13 @@
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
       <artifactId>sonar-ws</artifactId>
-      <version>${sonar.buildVersion}</version>
+      <version>7.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.sonarsource.sonarqube</groupId>
       <artifactId>sonar-ws</artifactId>
-      <version>6.7</version>
+      <version>7.1</version>
     </dependency>
     <dependency>
       <groupId>org.assertj</groupId>
